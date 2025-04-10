@@ -449,3 +449,17 @@ section {
   display: block;
   filter: brightness(0) invert(1); /* makes it white */
 }
+
+.sectionContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.Asentence{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 2.5rem;
+}
